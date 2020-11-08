@@ -1,7 +1,23 @@
 每周日晚周期性会议ID：578 6499 0634
 
+2020.11.8（周日）晚19:00
+傅中添：论文：application of autoencoder in novelty detection：Latent Space Autoregression for Novelty Detection
+             ROBUST SUBSPACE RECOVERY LAYER FOR UNSUPERVISED ANOMALY DETECTION
+             NOVELTY DETECTION WITH RECONSTRUCTION ALONG PROJECTION PATHWAY
+魏红陈：论文：Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations
+
 2020.11.1（周日）晚19：00
 倪金龙：论文：Learning from Noisy Labels with Deep Neural Networks: A Survey
+       Q1：Roubust function具体应该怎么写？
+           以GCE为例，它综合了MAC与CCE的优点
+           令于是它在q->0时趋向于CCE，在q->1时趋向于MAE
+
+       Q2：用于预测噪声类型和预测噪声的模块具体是怎么工作的？
+           用有干净标签的数据与它的噪声标签放入神经网络训练，训练出两个模型。
+           一个预测数据是无噪声(noise free)以及有噪声的噪声种类(random,cofusing)；另一个模型预测它的标签。两者综合得到它的最终预计标签。
+
+       Q3：Loss correction中的label transition matrix T是如何定的？
+           T如果有的话可以直接给模型用来训练；没有的时候需要先训练出一个T
 傅中添：论文：application of autoencoder in novelty detection：Latent Space Autoregression for Novelty Detection
              ROBUST SUBSPACE RECOVERY LAYER FOR UNSUPERVISED ANOMALY DETECTION
              NOVELTY DETECTION WITH RECONSTRUCTION ALONG PROJECTION PATHWAY
