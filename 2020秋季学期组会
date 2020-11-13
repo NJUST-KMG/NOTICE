@@ -1,9 +1,9 @@
 每周日晚周期性会议ID：578 6499 0634
 
 2020.11.15（周日）晚19：00
-张初兵：Does William Shakespeare REALLY Write Hamlet?Knowledge Representation
+张初兵：论文：Does William Shakespeare REALLY Write Hamlet?Knowledge Representation
        Learning with Confidence
-王鑫炎：A Survey on Knowledge Graphs Representation Acquisition and Applications
+王鑫炎：论文：A Survey on Knowledge Graphs Representation Acquisition and Applications
 
 2020.11.8（周日）晚19:00
 傅中添：论文：application of autoencoder in novelty detection：Latent Space Autoregression for Novelty Detection
@@ -34,48 +34,4 @@
 魏红陈：论文：Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations
 郭金一：论文：Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey
       1:Random noise和Y-dependent random noise有什么区别?
-        Y-dependent random noise变化到其他类的概率是随机的，而变到自身true class的概率不随机，没有找到相关资料，我推断是先给定这个概率，然后变到其他类的概率再随机，因此这类噪声考虑了自身的true class；
-        而Random noise是完全随机，既不考虑feature也不考虑true class.
-      2.Sample choosing到底是在子集还是全集上训练的？
-        这个主题的关注点是如何选择训练数据，即选择方法，只不过选择策略各不相同。
-        至于是子集还是全集，既然关注如何选择，那肯定是在子集上训练的。
-        self consistency: 每次训练都挑选出自我一致的confidently clean样本进行训练。
-        curriculum learning：每次训练都挑选teacher提取出的confidently clean样本训练，样本难度不断提高，即noisy的程度不断提高。
-        Multiple classifiers：两个网络co-teaching，互相为对方选择自己预测损失小（probably clean）的样本作为训练数据。
-        Activate learning: 选择损失最大的数据由人类标注。
-      3.Sample choosing和sample weighting 的区别与联系
-        区别：
-        sample choosing：在一个子集上训练，实例权重相同。
-        sample weighting：在全集上训练，实例权重不同，更干净，权重更大。
-        联系：
-        在sample choosing中被认为是clean的样本，在sample weighting中的权重较大；
-        在choosing中被认为是noise的样本，在sample weighting中权重较小.
-        两种方法都能够降低噪声数据带来的影响，提高模型性能。
-        思考（如有错误，望批评和指正）：
-        实际上，我们给出noise还是clean只是一种confidently的标签，并不是绝对的，如果考虑直接去除掉noise，可能会丢失一些信息，不如直接将其权重设置的较小。
-        感觉像是hard label（sample choosing）和soft label（sample weighting）一样。
-
-
-2020.10.20(周二)晚19：00
-张初兵：GNN论文：Graph Neural Networks: A Review of Methods and Applications
-
-2020.10.11（周日）晚19:00
-魏红陈：数据增广论文：Implicit Semantic Data Augmentation for Deep Networks
-张初兵：GNN论文：Graph Neural Networks: A Review of Methods and Applications
-郭金一：Noisy alignment目前的state of the art及Noisy alignment数据验证集构造
-
-2020.10.4（周日）晚19：30
-腾讯会议ID：578 6499 0634（以后每周日晚都是这个）
-魏红陈：工作进展汇报
-张初兵：论文：Graph Neural Networks: A Review of Methods and Applications
-郭金一：论文：SELF: LEARNING TO FILTER NOISY LABELS WITH SELF-ENSEMBLING
-
-2020.9.27（周日）晚19：30
-魏红陈：工作进展汇报
-张初兵：GNN论文:Graph Neural Networks: A Review of Methods and Applications
-郭金一：汇报风电机组数据清洗比赛
-
-2020.9.21（周一）晚19：30
-魏红陈：工作进展汇报
-张初兵：看的forgetting相关工作
-郭金一：汇报风电机组数据清洗比赛
+        Y-dependent random noise变化到其他类的概率是随机的，而变到自身true class的概率不随机，没有找到相关资料，我推断是先给定这个概率，然后变到其他类的概率再随机，因此这
