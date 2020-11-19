@@ -7,6 +7,13 @@
 2020.11.15（周日）晚19：00
 张：论文：Does William Shakespeare REALLY Write Hamlet?Knowledge Representation
        Learning with Confidence
+       Q1:关于论文中作者提出的路径是如何得到的？
+              作者通过枚举的方式得到的路径集合
+       Q2:Relation Path Reliability是如何体现可靠地？
+              作者采用资源分配的思想，给一个head分配固定数量的资源，假设为1，其中e1∈Eii1(·,e)表示关系r对应的前驱实体，|Ei(e1, ·)|表示关系r前驱
+              实体中相同关系的后继节点数的倒数，Rp(e)表示实体分配的资源，即一个节点获得的资源由前驱节点分配给他的资源总和，而前驱节点分配的资源
+              由Rp(e1)/|Ei(e1, ·)|得到；例如求节点m的分配资源，n为它的一个前驱，三元组（n,r,m），n在相同关系下的尾实体可能是多个记为x，则|Ei(e1, ·)|
+              =x；通过这样如果这条路径分配的资源越多，说明这条关系路径越可靠；
 鲍：论文：Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
 
 2020.11.8（周日）晚19:00
@@ -33,9 +40,9 @@
 
 2020.10.24（周日）晚19：00
 张：GCN论文：SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS
-      在GCN论文中有关作者的实验结果中GCN (rand. splits)的疑问？
-        作者在这里交叉验证他们的模型在10个随机绘制的相同大小的数据集分割上的性能。
+      Q1:在GCN论文中有关作者的实验结果中GCN (rand. splits)的疑问？
+            作者在这里交叉验证他们的模型在10个随机绘制的相同大小的数据集分割上的性能。
 魏：论文：Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations
 郭：论文：Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey
-      1:Random noise和Y-dependent random noise有什么区别?
+      Q1:Random noise和Y-dependent random noise有什么区别?
         Y-dependent random noise变化到其他类的概率是随机的，而变到自身true class的概率不随机，没有找到相关资料，我推断是先给定这个概率，然后变到其他类的概率再随机，因此这
