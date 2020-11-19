@@ -1,22 +1,22 @@
 每周日晚周期性会议ID：578 6499 0634
 
 2020.11.22（周日）晚19：00
-王鑫炎：论文：A Survey on Knowledge Graphs Representation Acquisition and Applications
-郭金一：论文：Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss
+王：论文：A Survey on Knowledge Graphs Representation Acquisition and Applications
+郭：论文：Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss
 
 2020.11.15（周日）晚19：00
-张初兵：论文：Does William Shakespeare REALLY Write Hamlet?Knowledge Representation
+张：论文：Does William Shakespeare REALLY Write Hamlet?Knowledge Representation
        Learning with Confidence
-鲍然：论文：Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+鲍：论文：Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
 
 2020.11.8（周日）晚19:00
-傅中添：论文：application of autoencoder in novelty detection：Latent Space Autoregression for Novelty Detection
+傅：论文：application of autoencoder in novelty detection：Latent Space Autoregression for Novelty Detection
              ROBUST SUBSPACE RECOVERY LAYER FOR UNSUPERVISED ANOMALY DETECTION
              NOVELTY DETECTION WITH RECONSTRUCTION ALONG PROJECTION PATHWAY
-魏红陈：论文：Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations
+魏：论文：Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations
 
 2020.11.1（周日）晚19：00
-倪金龙：论文：Learning from Noisy Labels with Deep Neural Networks: A Survey
+倪：论文：Learning from Noisy Labels with Deep Neural Networks: A Survey
        Q1：Roubust function具体应该怎么写？
            以GCE为例，它综合了MAC与CCE的优点
            令于是它在q->0时趋向于CCE，在q->1时趋向于MAE
@@ -27,15 +27,15 @@
 
        Q3：Loss correction中的label transition matrix T是如何定的？
            T如果有的话可以直接给模型用来训练；没有的时候需要先训练出一个T
-傅中添：论文：application of autoencoder in novelty detection：Latent Space Autoregression for Novelty Detection
+傅：论文：application of autoencoder in novelty detection：Latent Space Autoregression for Novelty Detection
              ROBUST SUBSPACE RECOVERY LAYER FOR UNSUPERVISED ANOMALY DETECTION
              NOVELTY DETECTION WITH RECONSTRUCTION ALONG PROJECTION PATHWAY
 
 2020.10.24（周日）晚19：00
-张初兵：GCN论文：SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS
+张：GCN论文：SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS
       在GCN论文中有关作者的实验结果中GCN (rand. splits)的疑问？
         作者在这里交叉验证他们的模型在10个随机绘制的相同大小的数据集分割上的性能。
-魏红陈：论文：Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations
-郭金一：论文：Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey
+魏：论文：Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations
+郭：论文：Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey
       1:Random noise和Y-dependent random noise有什么区别?
         Y-dependent random noise变化到其他类的概率是随机的，而变到自身true class的概率不随机，没有找到相关资料，我推断是先给定这个概率，然后变到其他类的概率再随机，因此这
