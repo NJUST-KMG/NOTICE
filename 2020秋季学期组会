@@ -7,6 +7,10 @@
 2020.11.22（周日）晚19：00
 王：论文：A Survey on Knowledge Graphs Representation Acquisition and Applications
 郭：论文：Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss
+       Q1.数据不平衡的分类：step imbalance和long-tailed imbalance的区别？
+             long-tailed imbalance指的是类的数据数量呈现长尾分布，即不断降低的一条曲线。
+             step imbalance指的是频繁类和少数类的数据量不同，但两个频繁类之间和两个少数类之间的数据量相同。
+             两者都是自然界中普遍存在的数据不平衡现象。
 
 2020.11.15（周日）晚19：00
 张：论文：Does William Shakespeare REALLY Write Hamlet?Knowledge Representation
