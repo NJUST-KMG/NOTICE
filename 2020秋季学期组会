@@ -6,6 +6,10 @@
 
 2020.11.22（周日）晚19：00
 王：论文：A Survey on Knowledge Graphs Representation Acquisition and Applications
+       Q1.对于SimplE中提出的enbedding，实体和关系是如何嵌入的？
+             在此模型中，将每个关系r对应一个向量r，每个实体e对应两个向量h(e)和t(e)，
+             在进行embedding时，当e做头结点时用h(e)，做尾节点时用t(e),且嵌入的过程h(e)和t(e)是独立的，互不影响。
+             而关系就是做逆。
 郭：论文：Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss
        Q1.数据不平衡的分类：step imbalance和long-tailed imbalance的区别？
              long-tailed imbalance指的是类的数据数量呈现长尾分布，即不断降低的一条曲线。
