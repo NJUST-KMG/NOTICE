@@ -1,9 +1,15 @@
 每周日晚周期性会议ID：578 6499 0634
 
-2020.11.29（周日）晚19:00
-魏：论文：Learn, Imagine and Create: Text-to-Image
-倪：论文：Learning to learn from noisy labeled data
+2020.12.06（周日）晚19：30
 傅：论文：A survey on deep learning in medical image analysis
+
+2020.11.29（周日）晚19:00
+倪：论文：Learning to learn from noisy labeled data
+       Q1、监督信息是什么？
+             有监督与无监督值的是人类监督，具体指是否使用了人工处理过的数据，比如人工挑选一些图片作为种子图片用来清除噪声标签，
+             或者通过人工标注来为混淆度打分，因此他们具有可扩展性上的缺陷，因为需要对每一类数据都标注，如噪声种类特别多的时候。         
+       Q2、Joint Optimization是什么方法？
+             Joint Optimization是一种将几种损失函数联合到一起来更新的一种方法，发表在CVPR2018上。
 
 2020.11.22（周日）晚19：00
 王：论文：A Survey on Knowledge Graphs Representation Acquisition and Applications
