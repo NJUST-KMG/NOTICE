@@ -5,16 +5,32 @@
 
 2020.12.13（周日）晚19：00
 郭：论文：AUC Optimization with a Reject Option
+       Q1.拒绝率是怎么算的？
+              引用文献中的解释是这样的：
+              Once the training process had been completed, we assessed the performances of the trained models
+              with the test dataset. The a posteriori probabilities were obtained and used as the outcome. These
+              a posteriori probabilities were then used to calculate accuracy as a function of rejection
+              rate. The range of a posteriori probabilities (from 0 to 1) was subdivided into 500 rejection
+              regions. This process was repeated 100 times to obtain the final mean ARCs.
+              我的理解是：在测试集上估计每个样本的后验概率P(y=1|x)，并与设定的阈值α（可以将[0,α]看作是一个拒绝区间）比较，如果在这个区间就拒绝，反之接受，可以算出test上的拒绝率。
+              因此，每个α都对应一个拒绝率，显然，α越大，拒绝率越高。同时α也对应一个准确率，因此可以plot出拒绝率-准确率曲线。
+       Q2.为什么拒绝率在0.5表现比0上好？
+              Chow(1957)引入了拒绝选项建议，对于后验概率不够高（指达不到阈值α）的样本不应进行分类，以减少错误的可能性。如果预测不够可靠，分类器会拒绝一个示例，并落入拒绝区域。
+              错误率和拒绝率之间有一个一般的关系:根据Chow(1970)，错误率随着拒绝率的增加而单调递减。
+       Q3.为什么用平方损失作为代替的凸损失函数？
+              引用文献的解释：
+              首先，平方损失的主要优点在于，它足以存储训练样本的一阶和二阶统计信息进行优化，导致内存需求为O(d2)，这与训练样本的数量无关。(这个地方我不是很明白)
+              其次，平方损失函数和AUC值是一致的，一致的含义是，把loss函数换成该平方函数后经验风险收敛能推出带有0-1loss的经验风险收敛。该定理的证明见Gao,W., and Zhou, Z.-H. 2015. On the consistency of AUC pairwise optimization.
 
 2020.12.06（周日）晚19：30
 傅：论文：A survey on deep learning in medical image analysis
 
 2020.11.29（周日）晚19:00
 倪：论文：Learning to learn from noisy labeled data
-       Q1、监督信息是什么？
+       Q1.监督信息是什么？
              有监督与无监督值的是人类监督，具体指是否使用了人工处理过的数据，比如人工挑选一些图片作为种子图片用来清除噪声标签，
              或者通过人工标注来为混淆度打分，因此他们具有可扩展性上的缺陷，因为需要对每一类数据都标注，如噪声种类特别多的时候。         
-       Q2、Joint Optimization是什么方法？
+       Q2.Joint Optimization是什么方法？
              Joint Optimization是一种将几种损失函数联合到一起来更新的一种方法，发表在CVPR2018上。
 
 2020.11.22（周日）晚19：00
