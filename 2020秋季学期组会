@@ -5,6 +5,9 @@
 
 2020.12.27（周日）晚19:00
 王：论文：Graph Structured Network for Image-Text Matching
+      Q1.如何将极坐标边权矩阵转化为正常的边权矩阵？
+         将极坐标输入到一组可学习均值和协方差的K Gaussian kernels，
+         其中均值可解释为极坐标中的方向和距离，详细见Learning Conditioned Graph Structures for Interpretable Visual Question Answering
 
 2020.12.20（周日）晚19:00
 倪：论文：Beyond Synthetic Noise: Deep Learning on Controlled Noisy Labels
