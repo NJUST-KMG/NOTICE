@@ -1,0 +1,79 @@
+- 安装docker
+    - 按照这个网站中的步骤https://yeasy.gitbook.io/docker_practice/install/ubuntu
+- 再安装nvidia-docker
+    - 按照这个网站https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker
+    - ![](https://gitee.com/coasxu/resource/raw/master/static/20210401225555.png)
+- 下载镜像
+    - docker pull 镜像名
+    - nvidia-docker run -it 镜像名 /bin/bash #这一步会进入docker！（第一次使用）
+--获取镜像
+    - 从网站查找镜像https://hub.docker.com/search?q=cuda10.0&type=image，运行docker pull 镜像名
+    - 例如查找CUDA10.0：docker pull rogerchen/cuda10.0-cudnn7-py3.6
+--退出docker
+    -exit或者ctrl p+q
+--再次进入docker
+    - 查看docker容器名称 docker ps -a
+    - 启动容器：docker restart 容器名；例如：容器名：cc5226，docker restart cc
+    - 进入容器：docker attach cc
+-- 安装vim、git等（在没有安装的前提下）
+    - apt-get update
+    - apt-get upgrade
+    - apt-get install vim
+-- 从容器拷贝文件：
+    - docker cp 容器名：要拷贝的文件在容器里面的路径       要拷贝到宿主机的相应路径
+    - 如docker cp testtomcat：/usr/local/tomcat/webapps/test/js/test.js /opt
+-- 上传文件到容器：
+    - docker cp 要拷贝的文件路径 容器名：要拷贝到容器里面对应的路径
+    - 如docker cp /opt/test.js testtomcat：/usr/local/tomcat/webapps/test/js
+-- 上传下载文件最简便的方法，在创建一个目录，将此目录与容器进行连接，成为共享目录，直接操作本地目录
+    - 待补充
+-- 删除本地镜像
+    - docker image rm [选项] <镜像1> [<镜像2> ...]
+-- 删除容器
+    - docker container rm trusting_newton
+-- 更换apt源
+    - 使用vim打卡/etc/apt/sources.list文件，按两下D，按i编辑，shift+insert粘贴以下内容
+deb https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+-----------------------------------------------------------------------------------------------------------------------------------------------
+可能遇到的问题
+-- 安装vim，Git时update缓慢，更换源
+    - 方法一
+        - cd /etc/apt
+        - cp sources.list sources.list.bak
+        - echo "deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse" > sources.list
+        - 若发现文件被锁，使用rm /var/lib/apt/lists/lock
+        - 接着刷新安装
+    - 方法二
+        - cd /usr/lib/apt/methods
+        - ln -s http https
+        - 接着刷新安装
+    - 方法三
+        - apt-get clean
+        - 接着刷新安装
+    - 方法四
+        - rm -r /etc/apt/source.list.d
+        - rm /var/lib/apt/lists/*
+        - rm /var/lib/apt/lists/partial/*
+        - 接着刷新安装
+--docker使用出现这个问题Got permission denied
+    - 添加用户组 sudo groupadd docker
+    - 加入当前用户 sudo gpasswd -a $USER docker
+    - 刷新docker newgrp docker 
+
+
+
+
+
+
+
+
+
