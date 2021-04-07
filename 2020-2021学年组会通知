@@ -5,6 +5,13 @@
 
 2021.4.4（周日）上午10:00
 郭：APPROXIMATE NEAREST NEIGHBOR NEGATIVE CONTRASTIVE LEARNING FOR DENSE TEXT RETRIEVAL
+    Q1：模型有/无监督？
+         有监督，监督信息是与Query匹配的text，必须告诉匹配的text是什么，这样才能训练一个模型去做QA任务。
+    Q2: 能否转移到Image retrieval任务上？
+         可以。
+    Q3: 稀疏检索和密集检索的区别？
+        稀疏检索是在特征表示是稀疏表示时的检索，稀疏表示以词袋模型提取的特征为代表，text特征和词频和字典有关，且因为字典特别多，text特征在多个维度上为0，是稀疏向量。
+        密集检索是在特征表示是密集表示时的检索，text特征几乎很少为0，因此较容易衡量相似度，不浪费空间，应用较广。
 倪：ACTIVE CONTRASTIVE LEARNING OF AUDIO-VISUAL VIDEO REPRESENTATIONS                                                                                                           
 
 2021.3.21（周日）上午10：00
