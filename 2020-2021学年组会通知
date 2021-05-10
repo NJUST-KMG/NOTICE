@@ -6,7 +6,7 @@
 
 2021.5.8（周六）晚上19：00
 郭：SELF-TRAINING FOR FEW-SHOT TRANSFER ACROSS EXTREME TASK DIFFERENCES
-    Q:tabel1不是已经是ImageNet->target domain了吗，为什么tabel2也是？tabel2为什么里面只拿了论文方法和tranfer方法比较？
+    Q:tabel1不是已经是ImageNet->target domain了吗，为什么tabel2也是ImageNet？tabel2为什么里面只拿了论文方法和tranfer方法比较？
     A:之前的tabel1中的作者的方法（STARTUP）是teacher和student都基于Resnet-10，tabel2为了研究更大更复杂的网络是否性能提高更多，tabel2用了Resnet-18
       但结果显示，虽然和使用Resnet10的对比方法比较依旧有提升，但和STARTUP（Resnet-10）比较，提升不明显。
 魏：Automatic Generation of Pattern-controlled Product Description in E-commerce
