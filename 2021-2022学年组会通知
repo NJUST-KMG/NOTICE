@@ -3,6 +3,10 @@
 2021.9.25（周六）晚上19:00
 郭：Learning from Imbalanced and Incomplete Supervision with Its Application to Ride-Sharing Liability Judgment
 傅：Deep Clustering based Fair Outlier Detection
+    Q：sensitive attribute si 的形式？
+        A：si 是 (N，1) 的形式，其中N为数据样本的个数。每个数据集固定选用一个敏感属性参与训练，倘若原始样本存在多个敏感属性，则在数据预处理过程中仅保留一个 以构造训练数据。
+        S 就是样本的敏感属性，si 就是第 i 个样本在敏感属性 S 上的取值。则在对抗性训练过程中，g 试图尽可能预测对敏感属性的值，而 f 在编码过程中尽可能遮掩敏感属性的特征，两个模型更新 Loss 
+        的方向相反，构成对抗训练。。公平性对抗训练的目标就是训练一个 敏感属性值预测器 g 和 特征提取器 f ，让 g 预测不出敏感属性值、 f 不提取敏感属性的特征，从而让模型对敏感属性的取值不敏感。
 
 2021.9.18（周六）晚上19:00
 萱：Learning to Walk across Time for Interpretable Temporal Knowledge Graph Completion
@@ -14,5 +18,4 @@
 
 2021.9.4（周六）晚上19:00
 黄：Mixup for Node and Graph Classification
-    Q:图数据上如何进行实践，如果两个pair选择的同一个样本，可能会存在一个样本有多个embedding表示的问题。
-        A:
+
