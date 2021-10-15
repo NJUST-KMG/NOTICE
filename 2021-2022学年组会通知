@@ -10,7 +10,9 @@
     1、这个方法适用于什么模型
         因为信息的聚合，所以适用于GNN base data
     2、每条路径的编码是如何进行的？
-        这里用到了词袋模型，即首先将所有出现的路径组合列出来，然后为每种组合的边赋予一个embedding（长度为len(n_relation），即关系数目）,初始化为将每种路径通过one_hot的方法进行初始化，例如以wn18RR数据集为例，共有11种关系，所以embedding的长度为11，以路径组合（1，2，3，1）为例，其初始化embedding为（0，2，1，1，0，0，0，0，0，0，0），然后通过一个全连接层变为关系的embedding维度，在更新中，只更新全连接层。
+        这里用到了词袋模型，即首先将所有出现的路径组合列出来，然后为每种组合的边赋予一个embedding（长度为len(n_relation），即关系数目）,初始化为将每种路径通过one_hot的方法
+        进行初始化，例如以wn18RR数据集为例，共有11种关系，所以embedding的长度为11，以路径组合（1，2，3，1）为例，其初始化embedding为（0，2，1，1，0，0，0，0，0，0，0），
+        然后通过一个全连接层变为关系的embedding维度，在更新中，只更新全连接层。
 鲍：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
 
 2021.10.3（周天）晚上19:00
