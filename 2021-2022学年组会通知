@@ -11,6 +11,7 @@
     Unifying Vision-and-Language Tasks via Text Generation
 傅：Jigsaw Clustering for Unsupervised Visual Representation Learning
 辉：DEEP GRAPH MATCHING CONSENSUS
+组会问题：无
 
 2021.11.13（周六）晚上19:00
 萱：struc2vec: Learning Node Representations from Structural Identity
@@ -18,24 +19,28 @@
 杨：Towards Open World Recognition
     Polyhedral Conic Classifiers for Visual Object Detection and Classification
     Toward Open Set Recognition
-    
+组会问题：无，备注：杨守威重新讲
+
 2021.11.06（周六）晚上19:00
 鲍：TRUSTED MULTI-VIEW CLASSIFICATION
 王：Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways Out
+组会问题：无
 
 2021.10.30（周六）晚上19:00
 郭：Learning from the Master: Distilling Cross-modal Advanced Knowledge for Lip Reading
 张：DiffMG: Differentiable Meta Graph Search for Heterogeneous Graph Neural Networks
-
+组会问题：无
 
 2021.10.24（周天）晚上19:00
 魏：Multimodal Few-Shot Learning with Frozen Language Models
     Unifying Vision-and-Language Tasks via Text Generation
 傅：Instance-Conditioned GAN
+组会问题：无，备注：魏红陈重新讲
 
 2021.10.16（周六）晚上19:00
 黄：A Local-to-Global Approach to Multi-modal Movie Scene Segmentation
-萱：Self-supervised Graph Learning for Recommendation
+萱：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
+组会问题：无，备注：张宇萱重新讲
 
 2021.10.9（周六）晚上19:00
 王：Relational Message Passing for Knowledge Graph Completion
@@ -51,6 +56,7 @@
 黄：Incorporating Domain Knowledge To Improve Topic Segmentation Of Long MOOC Lecture Videos
 魏：RSTNet: Captioning with Adaptive Attention on Visual and Non-Visual Words
     UNIMO: Towards Unified-Modal Understanding and Generation via Cross-Modal Contrastive Learning
+组会问题：无
 
 2021.9.25（周六）晚上19:00
 郭：Learning from Imbalanced and Incomplete Supervision with Its Application to Ride-Sharing Liability Judgment
@@ -59,15 +65,18 @@
         A：si 是 (N，1) 的形式，其中N为数据样本的个数。每个数据集固定选用一个敏感属性参与训练，倘若原始样本存在多个敏感属性，则在数据预处理过程中仅保留一个 以构造训练数据。
         S 就是样本的敏感属性，si 就是第 i 个样本在敏感属性 S 上的取值。则在对抗性训练过程中，g 试图尽可能预测对敏感属性的值，而 f 在编码过程中尽可能遮掩敏感属性的特征，两个模型更新 Loss 
         的方向相反，构成对抗训练。。公平性对抗训练的目标就是训练一个 敏感属性值预测器 g 和 特征提取器 f ，让 g 预测不出敏感属性值、 f 不提取敏感属性的特征，从而让模型对敏感属性的取值不敏感。
+组会问题：无
 
 2021.9.18（周六）晚上19:00
 萱：Learning to Walk across Time for Interpretable Temporal Knowledge Graph Completion
 张：Purify and Generate: Learning Faithful Item-to-Item Graph from Noisy User-Item Interaction Behaviors
 王：NRGNN: Learning a Label Noise-Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs
+组会问题：无
 
 2021.9.11（周六）晚上19:00
 鲍：Model-Agnostic Counterfactual Reasoning for Eliminating Popularity Bias in Recommender System
+组会问题：无
 
 2021.9.4（周六）晚上19:00
 黄：Mixup for Node and Graph Classification
-
+组会问题：无
