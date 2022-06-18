@@ -1,105 +1,134 @@
 每周六晚19:00 周期会议ID：892 4985 0596
 每周六早10:00(周报) 会议ID：538 6991 5988
 
+2022.6.18（周六）晚上19:00
+金一：ViSTA: Vision and Scene Text Aggregation for Cross-Modal Retrieval
+鑫炎：Align Representations with Base: A New Approach to Self-Supervised Learning
+
+2022.6.11（周六）晚上19:00
+高亦：Continual learning: A comparative study on how to defy forgetting in classification tasks
+文涓：Mosaicking to Distill:Knowledge Distillation from Out-of-Domain Data
+舟阳：Multimodal Machine Learning:A Survey and Taxonomy
+
+2022.6.4（周六）晚上19:00
+文涓：Mosaicking to Distill:Knowledge Distillation from Out-of-Domain Data
+中添：Perturb, Predict & Paraphrase: Semi-Supervised Learning using Noisy Student for Image Captioning
+
+2022.5.28（周六）晚上19:00
+宇萱：Graph Attention Multi-Layer Perceptron
+伯元：UNITER: UNiversal Image-TExt Representation Learning
+
+2022.5.21（周六）晚上19:00
+守威：Deep Learning Through the Lens of Example Difficulty
+禹睿：Long Short View Feature Decomposition via Contrastive Video Representation Learning
+
+2022.5.14（周六）晚上19:00
+红陈：On the Integration of Self-Attention and Convolution
+
+2022.5.7（周六）晚上19:00
+文涓：Learning Placeholders for Open-Set Recognition
+中添：SIMVLM: SIMPLE VISUAL LANGUAGE MODEL PRE-TRAINING WITH WEAK SUPERVISION
+金一：Align before Fuse: Vision and Language Representation Learning with Momentum Distillation
+
 2022.4.30（周六）晚上19:00
-炎：ReSSL: Relational Self-Supervised Learning with Weak Augmentation
-浩：Learning Dual Semantic Relations with Graph Attention for Image-Text Matching
+鑫炎：ReSSL: Relational Self-Supervised Learning with Weak Augmentation
+志浩：Learning Dual Semantic Relations with Graph Attention for Image-Text Matching
 
 2022.4.23（周六）晚上19:00
-元：Similarity Reasoning and Filtration for Image-Text Matching
-萱：SIMPLE SPECTRAL GRAPH CONVOLUTION
-浩：Multi-Modality Cross Attention Network for Image and Sentence Matching
+伯元：Similarity Reasoning and Filtration for Image-Text Matching
+宇萱：SIMPLE SPECTRAL GRAPH CONVOLUTION
+志浩：Multi-Modality Cross Attention Network for Image and Sentence Matching
 
 2022.4.16（周六）晚上19:00
-杨：Task-Agnostic Undesirable Feature Deactivation Using Out-of-Distribution Data
-黄：Temporal-attentive Covariance Pooling Networks for Video Recognition
+守威：Task-Agnostic Undesirable Feature Deactivation Using Out-of-Distribution Data
+禹睿：Temporal-attentive Covariance Pooling Networks for Video Recognition
 
 2022.4.9（周六）晚上19:00
-张：NOT ALL PATCHES ARE WHAT YOU NEED: EXPEDITING VISION TRANSFORMERS VIA TOKEN REORGANIZATIONS
+初兵：NOT ALL PATCHES ARE WHAT YOU NEED: EXPEDITING VISION TRANSFORMERS VIA TOKEN REORGANIZATIONS
 
 2022.3.26（周六）晚上19:00
-涓：OPEN-SET RECOGNITION:A GOOD CLOSED-SET CLASSIFIER IS ALL YOU NEED
-王：Multi-Grained Vision Language Pre-Training:Aligning Texts with Visual Concepts
+文涓：OPEN-SET RECOGNITION:A GOOD CLOSED-SET CLASSIFIER IS ALL YOU NEED
+鑫炎：Multi-Grained Vision Language Pre-Training:Aligning Texts with Visual Concepts
 
 2022.3.19（周六）晚上19:00
-萱：Are we really making much progress? Revisiting, benchmarking,and refining heterogeneous graph neural networks
-伯：BOUNDARY-AWARE SELF-SUPERVISED LEARNING FOR VIDEO SCENE SEGMENTATION
+宇萱：Are we really making much progress? Revisiting, benchmarking,and refining heterogeneous graph neural networks
+伯元：BOUNDARY-AWARE SELF-SUPERVISED LEARNING FOR VIDEO SCENE SEGMENTATION
 
 2022.3.12（周六）晚上19:00
-杨：Towards Learning a Generic Agent for Vision-and-Language Navigation via Pre-training
+守威：Towards Learning a Generic Agent for Vision-and-Language Navigation via Pre-training
 初：Thinking Fast and Slow: Efficient Text-to-Visual Retrieval with Transformers
-魏：Going deeper with Image Transformers
+红陈：Going deeper with Image Transformers
 
 2022.3.5（周六）晚上19:00
-傅：BART: Denoising Seq2Seq Pre-training for Natural Language Generation, Translation, and Comprehension
-高：MoCo v3:An Empirical Study of Training Self-Supervised Vision Transformers
-涓：VLN_BERT: A Recurrent Vision-and-Language BERT for Navigation
+中添：BART: Denoising Seq2Seq Pre-training for Natural Language Generation, Translation, and Comprehension
+海亮：MoCo v3:An Empirical Study of Training Self-Supervised Vision Transformers
+文涓：VLN_BERT: A Recurrent Vision-and-Language BERT for Navigation
 
 2022.2.26（周六）晚上19:00
-郭：ELECTRA: PRE-TRAINING TEXT ENCODERS AS DISCRIMINATORS RATHER THAN GENERATORS
-黄：Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+金一：ELECTRA: PRE-TRAINING TEXT ENCODERS AS DISCRIMINATORS RATHER THAN GENERATORS
+禹睿：Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
 
 2022.2.19（周六）晚上19:00
-萱：DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
-伯：Big Bird: Transformers for Longer Sequences
-王：ERNIE-ViL: Knowledge Enhanced Vision-LanguageRepresentations through Scene Graphs
-涓：What Makes Training Multi-modal Classification Networks Hard?
+宇萱：DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
+伯元：Big Bird: Transformers for Longer Sequences
+鑫炎：ERNIE-ViL: Knowledge Enhanced Vision-LanguageRepresentations through Scene Graphs
+文涓：What Makes Training Multi-modal Classification Networks Hard?
 
 2022.2.12（周六）晚上19:00
 兵：Large-Scale Adversarial Training for Vision-and-Language Representation Learning
-杨：History Aware Multimodal Transformer for Vision-and-Language Navigation
+守威：History Aware Multimodal Transformer for Vision-and-Language Navigation
 
 2022.1.29（周六）晚上19:00
-郭：RoBERTa: A Robustly Optimized BERT Pretraining Approach
-傅：Improving Language Understanding by Generative Pre-Training
-黄：AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE
-高：Training data-efficient image transformers & distillation through attention
+金一：RoBERTa: A Robustly Optimized BERT Pretraining Approach
+中添：Improving Language Understanding by Generative Pre-Training
+禹睿：AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE
+海亮：Training data-efficient image transformers & distillation through attention
 
 2022.1.22（周六）晚上19:00
-王：ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision
-涓：Unicoder-VL: A Universal Encoder for Vision and Language by Cross-Modal Pre-Training
+鑫炎：ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision
+文涓：Unicoder-VL: A Universal Encoder for Vision and Language by Cross-Modal Pre-Training
 
 2022.1.15（周六）晚上19:00
-张：Attention is All you Need
-伯：BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+初兵：Attention is All you Need
+伯元：BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 2022.1.8（周六）晚上19:00
-魏：Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+红陈：Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
 
 2022.1.1（周六）晚上19:00
-杨：Polyhedral Conic Classifiers for Visual Object Detection and Classification
+守威：Polyhedral Conic Classifiers for Visual Object Detection and Classification
 
 2021.12.26（周六）晚上19:00
-郭：Probabilistic Embeddings for Cross-Modal Retrieval
+金一：Probabilistic Embeddings for Cross-Modal Retrieval
 
 2021.12.19（周六）晚上19:00
-杨：Polyhedral Conic Classifiers for Visual Object Detection and Classification
+守威：Polyhedral Conic Classifiers for Visual Object Detection and Classification
 
 2021.12.11（周六）晚上19:00
-张：Deep Co-Attention Network for Multi-View Subspace Learning
-元：VX2TEXT: End-to-End Learning of Video-Based Text Generation From Multimodal Inputs
-萱：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
+初兵：Deep Co-Attention Network for Multi-View Subspace Learning
+伯元：VX2TEXT: End-to-End Learning of Video-Based Text Generation From Multimodal Inputs
+宇萱：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
 
 2021.12.4（周六）晚上19:00
-王：Few-shot Network Anomaly Detection via Cross-network Meta-learning
-高：Learning Cross-Modal Retrieval with Noisy Labels
+鑫炎：Few-shot Network Anomaly Detection via Cross-network Meta-learning
+海亮：Learning Cross-Modal Retrieval with Noisy Labels
 
 2021.11.27（周六）晚上19:00
-涓：Few-Shot Incremental Learning with Continually Evolved Classifiers
-黄：Semi-Supervised Action Recognition with Temporal Contrastive Learning
-郭：Unsupervised Model Adaptation for Continual Semantic Segmentation
+文涓：Few-Shot Incremental Learning with Continually Evolved Classifiers
+禹睿：Semi-Supervised Action Recognition with Temporal Contrastive Learning
+金一：Unsupervised Model Adaptation for Continual Semantic Segmentation
 
 2021.11.20（周六）晚上19:00
-魏：Multimodal Few-Shot Learning with Frozen Language Models
+红陈：Multimodal Few-Shot Learning with Frozen Language Models
     Unifying Vision-and-Language Tasks via Text Generation
-傅：Jigsaw Clustering for Unsupervised Visual Representation Learning
-辉：DEEP GRAPH MATCHING CONSENSUS
+中添：Jigsaw Clustering for Unsupervised Visual Representation Learning
+鹏辉：DEEP GRAPH MATCHING CONSENSUS
 组会问题：无
 
 2021.11.13（周六）晚上19:00
-萱：struc2vec: Learning Node Representations from Structural Identity
-张：Self-Tuning for Data-Efficient Deep Learning
-杨：Towards Open World Recognition
+宇萱：struc2vec: Learning Node Representations from Structural Identity
+初兵：Self-Tuning for Data-Efficient Deep Learning
+守威：Towards Open World Recognition
     Polyhedral Conic Classifiers for Visual Object Detection and Classification
     Toward Open Set Recognition
     1.开放性的公式解释(开放性Openness定义中各变量的关系。)
@@ -110,45 +139,45 @@
          就是基础的线性1-VS-SET Machine计算出的远超平面和近超平面之间的距离，表示正类所在区域的宽度。 就是经过泛化之后远超平面 到近超平面 的距离，也可以是经过专业化之后远超平面 到近超平面 的距离。所以就可以用 来表示过度泛化（欠拟合）的风险，用 表示过度专业化（过拟合）的风险。 和 分别表示远超平面 、近超平面 的法向量， 和 是用户自定义的参数。将以上几项求和就得到了实际可运算的开放空间风险。
 
 2021.11.06（周六）晚上19:00
-鲍：TRUSTED MULTI-VIEW CLASSIFICATION
-王：Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways Out
+鲍然：TRUSTED MULTI-VIEW CLASSIFICATION
+鑫炎：Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways Out
 组会问题：无
 
 2021.10.30（周六）晚上19:00
-郭：Learning from the Master: Distilling Cross-modal Advanced Knowledge for Lip Reading
-张：DiffMG: Differentiable Meta Graph Search for Heterogeneous Graph Neural Networks
+金一：Learning from the Master: Distilling Cross-modal Advanced Knowledge for Lip Reading
+初兵：DiffMG: Differentiable Meta Graph Search for Heterogeneous Graph Neural Networks
 组会问题：无
 
 2021.10.24（周天）晚上19:00
-魏：Multimodal Few-Shot Learning with Frozen Language Models
+红陈：Multimodal Few-Shot Learning with Frozen Language Models
     Unifying Vision-and-Language Tasks via Text Generation
-傅：Instance-Conditioned GAN
+中添：Instance-Conditioned GAN
 组会问题：无，备注：魏红陈重新讲
 
 2021.10.16（周六）晚上19:00
-黄：A Local-to-Global Approach to Multi-modal Movie Scene Segmentation
-萱：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
+禹睿：A Local-to-Global Approach to Multi-modal Movie Scene Segmentation
+宇萱：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
 组会问题：无，备注：张宇萱重新讲
 
 2021.10.9（周六）晚上19:00
-王：Relational Message Passing for Knowledge Graph Completion
+鑫炎：Relational Message Passing for Knowledge Graph Completion
     1、这个方法适用于什么模型
         因为信息的聚合，所以适用于GNN base data
     2、每条路径的编码是如何进行的？
         这里用到了词袋模型，即首先将所有出现的路径组合列出来，然后为每种组合的边赋予一个embedding（长度为len(n_relation），即关系数目）,初始化为将每种路径通过one_hot的方法
         进行初始化，例如以wn18RR数据集为例，共有11种关系，所以embedding的长度为11，以路径组合（1，2，3，1）为例，其初始化embedding为（0，2，1，1，0，0，0，0，0，0，0），
         然后通过一个全连接层变为关系的embedding维度，在更新中，只更新全连接层。
-鲍：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
+鲍然：Scalable Heterogeneous Graph Neural Networks for Predicting High-potential Early-stage Startups
 
 2021.10.3（周天）晚上19:00
-黄：Incorporating Domain Knowledge To Improve Topic Segmentation Of Long MOOC Lecture Videos
-魏：RSTNet: Captioning with Adaptive Attention on Visual and Non-Visual Words
+禹睿：Incorporating Domain Knowledge To Improve Topic Segmentation Of Long MOOC Lecture Videos
+红陈：RSTNet: Captioning with Adaptive Attention on Visual and Non-Visual Words
     UNIMO: Towards Unified-Modal Understanding and Generation via Cross-Modal Contrastive Learning
 组会问题：无
 
 2021.9.25（周六）晚上19:00
-郭：Learning from Imbalanced and Incomplete Supervision with Its Application to Ride-Sharing Liability Judgment
-傅：Deep Clustering based Fair Outlier Detection
+金一：Learning from Imbalanced and Incomplete Supervision with Its Application to Ride-Sharing Liability Judgment
+中添：Deep Clustering based Fair Outlier Detection
     Q：sensitive attribute si 的形式？
         A：si 是 (N，1) 的形式，其中N为数据样本的个数。每个数据集固定选用一个敏感属性参与训练，倘若原始样本存在多个敏感属性，则在数据预处理过程中仅保留一个 以构造训练数据。
         S 就是样本的敏感属性，si 就是第 i 个样本在敏感属性 S 上的取值。则在对抗性训练过程中，g 试图尽可能预测对敏感属性的值，而 f 在编码过程中尽可能遮掩敏感属性的特征，两个模型更新 Loss 
@@ -156,15 +185,15 @@
 组会问题：无
 
 2021.9.18（周六）晚上19:00
-萱：Learning to Walk across Time for Interpretable Temporal Knowledge Graph Completion
-张：Purify and Generate: Learning Faithful Item-to-Item Graph from Noisy User-Item Interaction Behaviors
-王：NRGNN: Learning a Label Noise-Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs
+宇萱：Learning to Walk across Time for Interpretable Temporal Knowledge Graph Completion
+初兵：Purify and Generate: Learning Faithful Item-to-Item Graph from Noisy User-Item Interaction Behaviors
+鑫炎：NRGNN: Learning a Label Noise-Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs
 组会问题：无
 
 2021.9.11（周六）晚上19:00
-鲍：Model-Agnostic Counterfactual Reasoning for Eliminating Popularity Bias in Recommender System
+鲍然：Model-Agnostic Counterfactual Reasoning for Eliminating Popularity Bias in Recommender System
 组会问题：无
 
 2021.9.4（周六）晚上19:00
-黄：Mixup for Node and Graph Classification
+禹睿：Mixup for Node and Graph Classification
 组会问题：无
