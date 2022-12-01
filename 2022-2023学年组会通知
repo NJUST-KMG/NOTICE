@@ -1,6 +1,15 @@
 每周三晚19:00 周期会议ID：385-8349-2666
 每周六晚19:00(周报) 会议ID：897-7427-3526
 
+2022.11.30（周三）晚上19:00
+晁典：Not All Labels Are Equal:Rationalizing The Labeling Costs for Training Object Detection
+     Q1：模型是半监督还是全监督，主要思路是什么？
+          半监督，利用主动学习挑选半监督当中不一致性高的未标记样本进行人工标记，提升模型性能。
+     Q2：为什么能够挑选out of distribution的样本？
+          这篇论文考虑了两种类型的out of distribution的样本，一种是置信度高但是与增强版本不一致性高的图片，还有一种是置信度低因此熵值高的图片，综合计算评分，评分高的大概率是类里面没有的样本。
+     Q3：为什么使用半监督不一致方法会损害模型？
+          因为半监督中不一致性方法假定图片增强前后趋于一致，但是这样做对于一些特殊的标记错的样本会出现预测错的情况，损害模型。
+
 2022.11.23（周三）晚上19:00
 文涓：ARAE: Adversarially Robust Training of Autoencoders Improves Novelty Detection
 初兵：Comprehensive Fair Meta-learned Recommender System
