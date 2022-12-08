@@ -1,6 +1,15 @@
 每周三晚19:00 周期会议ID：385-8349-2666
 每周六晚19:00(周报) 会议ID：897-7427-3526
 
+2022.12.7（周三）晚上19:00
+海亮：AFEC: Active Forgetting of Negative Transfer in Continual Learning
+若璇：Balanced Multimodal Learning via On-the-fly Gradient Modulation
+志浩：CLiMB: A Continual Learning Benchmark for Vision-and-Language Tasks
+     Q1：上游多模态任务是如何学习的？
+          根据多模态任务的次序，依次学习，并且验证模型对未来任务的迁移能力以及对过去任务的遗忘程度。
+     Q2：任务的Backbone选用的是哪一个模型？
+          选取的是单流的预训练ViLT模型，通过在模型的Transformer Encoder上添加特定的分类头对多模态任务进行微调。
+
 2022.11.30（周三）晚上19:00
 晁典：Not All Labels Are Equal:Rationalizing The Labeling Costs for Training Object Detection
      Q1：模型是半监督还是全监督，主要思路是什么？
